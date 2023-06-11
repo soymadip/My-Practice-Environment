@@ -7,7 +7,7 @@ c = input("Type your 3rd number: ")
 # d4 = int(a)/ int(b)
 # d5 = int(a)% int(b)
 # d6 = int(a)** int(b)** int(c)
-# d7 = int(a)// int(b) #cannot use in simpliest calcuulator.😁
+# d7 = int(a)// int(b) #cannot use in the simpliest calcuulator.😁
 
 print("THe value of",a,"+",b,"+",c,"is:",int(a)+ int(b)+ int(c))
 print("THe value of",a,"-",b,"-",c,"is:",int(a)- int(b)- int(c))

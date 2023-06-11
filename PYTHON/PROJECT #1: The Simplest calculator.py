@@ -16,5 +16,4 @@ print("THe value of",a,"/",b,"is:",int(a)/ int(b))
 print("THe value of",a,"%",b,"is:",int(a)% int(b))
 print("THe value of",a,"**",b,"**",c,"is:",int(a)** int(b)** int(c))
 print("THe value of",a,"//",b,"is:",int(a)// int(b))
-
 print("sayonara,see you in next project👋")

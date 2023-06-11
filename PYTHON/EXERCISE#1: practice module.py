@@ -58,7 +58,7 @@ str1 = "World Health Organization"
 #check if it is Title(1st letters are capital)
 
 str2 = "To kill a Mocking bird"
-#check if title
+#check if 1st letters are capital
 
 str1 = "Python is a Interpreted Language" 
 #check if the sentence starts with python

@@ -1,6 +1,7 @@
 
 ## Faulty calculator
 ## Created for practice
+## Try calculating 232323232323232**23232323232323
 
 
 num1 = int(input('inter your 1st number: '))

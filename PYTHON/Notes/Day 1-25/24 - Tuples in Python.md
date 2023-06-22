@@ -1,12 +1,14 @@
 
 # Python Tuples
-Tuples are ordered collection of data items. They store multiple items in a single variable. Tuple items are separated by commas and enclosed within round brackets (). Tuples are unchangeable meaning we can not alter them after creation.
+Tuples are ordered collection of data items. They store multiple items in a single variable. Tuple items are separated by commas and enclosed within round brackets (). **Tuples are unchangeable** meaning we can not alter them after creation.
 
- 
+- _Tuples_ are in ==( )== instead of ==[ ]== like **Lists**
+- _Indexing_  is as same as **Lists**
 
 ### Example 1:
 ```python
-tuple1 = (1,2,2,3,5,4,6)
+tuple1 = (1,2,2,3,5,4,6) #tuple
+tuple1 = [1,2,2,3,5,4,6] #list
 tuple2 = ("Red", "Green", "Blue")
 print(tuple1)
 print(tuple2)

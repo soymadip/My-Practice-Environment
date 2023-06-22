@@ -24,7 +24,7 @@
       git clone https://github.com/<yourUsername>/My-Created-Projects
       ```
 - Now open the cloned `My-Created-Projects` folder in your IDE (I am & recomend using VS Code).
-- Open the `PRACTICE.py`, you will see its a blank python file so you can write & run your code in that file in your IDE.
+- Rename the `PRACTICE.py`to `PRACTICE1.py`, you will see its a blank python file so you can write & run your code in that file in your IDE.
 - You can open notes,exercises,projects in new Tabs side by side (this is very efficient).
 - You can also pin `PRACTICE.py` so that your IDE opens with that file at start by default.
 - You can also clone my Repo directly but I recomend to fork mine first because it will give more flexibility (if I upload anything new, you can just sync upstream from GitHub..).

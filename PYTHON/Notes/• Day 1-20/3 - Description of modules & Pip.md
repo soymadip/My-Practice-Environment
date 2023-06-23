@@ -15,6 +15,7 @@ pip install pandas
 ```
 
 ## Using a module in Python (Usage)
+
 We use the import syntax to import a module in Python. Here is an example code:
 
 ```python
@@ -29,4 +30,4 @@ print(df) # This will display first few rows from the words.csv file
 Similarly we can install other modules and look into their documentations for usage instructions.\
 We will find ourselved doing this often in the later part of this course
 
-## [Next Lesson>>](./4.md)
+## [[4|Next Lesson>>]]

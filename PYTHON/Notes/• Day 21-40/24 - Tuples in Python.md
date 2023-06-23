@@ -1,11 +1,13 @@
 
 # Python Tuples
-Tuples are ordered collection of data items. They store multiple items in a single variable. Tuple items are separated by commas and enclosed within round brackets (). **Tuples are unchangeable** meaning we can not alter them after creation.
+
+Tuples are ordered collection of data items. They store multiple items in a single variable. Tuple items are separated by commas and enclosed within round brackets (). **Tuples are unchangeable** meaning we can not change them after creation.
 
 - _Tuples_ are in ==( )== instead of ==[ ]== like **Lists**
 - _Indexing_  is as same as **Lists**
 
 ### Example 1:
+
 ```python
 tuple1 = (1,2,2,3,5,4,6) #tuple
 tuple1 = [1,2,2,3,5,4,6] #list
@@ -19,18 +21,10 @@ print(tuple2)
 ('Red', 'Green', 'Blue')
 ```
 
-### Example 2:
-```python
-details = ("Abhijeet", 18, "FYBScIT", 9.8)
-print(details)
-```
-### Output:
-```
-('Abhijeet', 18, 'FYBScIT', 9.8)
-```
-
 # Tuple Indexes
+
 Each item/element in a tuple has its own unique index. This index can be used to access any particular item from the tuple. The first item has index [0], second item has index [1], third item has index [2] and so on.
+- `But length is counted from 1`.
 
 ### Example:
 ```python
@@ -44,7 +38,8 @@ country = ("Spain", "Italy", "India",)
 ### I. Positive Indexing:
 As we have seen that tuple items have index, as such we can access items using these indexes.
 
-Example:
+### Example:
+
 ```python
 country = ("Spain", "Italy", "India",)
 #            [0]      [1]      [2]     
@@ -57,9 +52,10 @@ Output:
 Spain
 Italy
 India
- ```
+```
 
 ### II. Negative Indexing:
+
 Similar to positive indexing, negative indexing is also used to access items, but from the end of the tuple. The last item has index [-1], second last item has index [-2], third last item has index [-3] and so on.
 
 ### Example:
@@ -70,7 +66,7 @@ print(country[-1]) # Similar to print(country[len(country) - 1])
 print(country[-3])
 print(country[-4])
 ```
-### Output:
+#### Output:
 ```
 Germany
 India
@@ -114,8 +110,8 @@ You can print a range of tuple items by specifying where do you want to start, w
 ```python
 Tuple[start : end : jumpIndex]
 ```
-Note: jump Index is optional. We will see this in given examples.
 
+Note: jump Index is optional. We will see this in given examples.
  
 
 ### Example: Printing elements within a particular range:
@@ -129,6 +125,7 @@ print(animals[-7:-2])   #using negative indexes
 ('mouse', 'pig', 'horse', 'donkey')
 ('bat', 'mouse', 'pig', 'horse', 'donkey')
 ```
+
 Here, we provide index of the element from where we want to start and the index of the element till which we want to print the values. 
 Note: The element of the end index provided will not be included.
 
@@ -190,4 +187,6 @@ print(animals[1:8:3])
 ```
 Here, jump index is 3. Hence it prints every 3rd element within given index.
 
-## [Next Lesson>>](./25.md)
+
+
+## [Next Lesson>>](25%20-%20operations%20on%20Tuples.md)

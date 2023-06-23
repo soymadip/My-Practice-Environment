@@ -7,7 +7,7 @@ Based on this, the conditional statements are further classified into following 
 - if-else
 - if-else-elif
 - nested if-else-elif.
-## An if……else statement evaluates like this:
+## An if-else statement evaluates like this:
 
 ### if the expression evaluates True:
 Execute the block of code inside if statement. After execution return to the code out of the if……else block.\
@@ -77,4 +77,6 @@ Output:
 Number is between 11-20
 ```
 
-## [Next Lesson>>](./15.md)
+---
+
+## [[15 - Exercise 2~ Good morning sir|Next Lesson>>]]

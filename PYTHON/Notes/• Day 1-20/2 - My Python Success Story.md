@@ -1,4 +1,5 @@
-# Day 2 - My Python Success Story
+# Day 2 - Harry's Python Success Story
+
 # Why I love python (And you will too...)
 Welcome to Day 2 of 100 days of code. Let me start with a story! 
 Back in my college, I used to learn C and C++ programming in depth, used to score good marks. I created a bunch of printing, conditionals and loop program. Now what? I wanted to benefit from the same
@@ -12,4 +13,4 @@ I then learnt flask and got to work with Flask with a university professor abroa
 I want to show you some python programs I created which will surely inspire you to create your own versions of the same as we progress through this tutorial. 
 Do not try to recreate them just yet if you are a beginner and just started working on Python. We will make progress gradually trust me
 
-## [Next Lesson>>](./3.md)
+## [[3 - Description of modules & Pip|Next Lesson>>]]

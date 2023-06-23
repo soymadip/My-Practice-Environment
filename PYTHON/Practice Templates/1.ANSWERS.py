@@ -1,5 +1,111 @@
 #-------------------
 
+# 13
+
+a = "!!!Harry!! !!!!!!!!! Harry"
+#upppercase-
+print(a.upper())
+
+#--------------------------------------------------------------
+#lowercase
+print(a.lower())
+
+#--------------------------------------------------------------
+#strip last space-
+print(a.strip()) 
+
+#--------------------------------------------------------------
+#repalace harry with john
+print(a.replace("Harry","john"))
+
+#--------------------------------------------------------------
+#split from space
+print(a.split())
+
+#--------------------------------------------------------------
+a1 = "harry+john"
+#split from +
+print(a1.split("+"))
+
+#--------------------------------------------------------------
+blogHeading = "introduction tO jS"
+#capitalize
+print(blogHeading.title())
+#--------------------------------------------------------------
+str1 = "Welcome to the Console!!!"
+
+#align the string "str1" to the center 50 
+#the number of times "Harry" has occurred within
+
+#--------------------------------------------------------------
+str1 = "Welcome to the Console !!!"
+#check if str1 ends with !!!
+print(str1.istitle())
+
+#--------------------------------------------------------------
+str1 = "Welcome to the Console !!!"
+#check if str1 ends with !!! from 4 to 10
+print(str1.endswith("!!!",4,10))
+
+#--------------------------------------------------------------
+str1 = "He's name is Dan. He is an honest man."
+#use index to find "ishh"
+print(str1.index("ishh")) # returns error
+
+#use find to find "ishh"
+print(str1.find("ishh")) # returns -1 if flase
+
+#--------------------------------------------------------------
+str1 = "WelcomeToTheConsole"
+#check if number and alphabet
+print(str1.isalnum())
+
+#--------------------------------------------------------------
+str1 = "Welcome"
+#check if only alphabet
+print(str1.isalpha())
+
+#--------------------------------------------------------------
+str1 = "hello world"
+#check if only lower
+print(str1.islower())
+#--------------------------------------------------------------
+str1 = "We wish you a Merry Christmas\n"
+#check if printable
+print(str1.isprintable())
+
+#--------------------------------------------------------------
+str1 = "         "       #using Spacebar
+#check if it has space
+print(str1.isspace())
+#--------------------------------------------------------------
+str1 = "World Health Organization" 
+#check if it is Title(1st letters are capital)
+print(str1.istitle())
+
+#--------------------------------------------------------------
+str2 = "To kill a Mocking bird"
+#check if 1st letters are capital
+print(str2.istitle())
+#--------------------------------------------------------------
+str1 = "Python is a Interpreted Language" 
+#check if the sentence starts with python
+print(str1.startswith("Python"))
+
+#--------------------------------------------------------------
+str1 = "Python is a Interpreted Language" 
+#change the character casing of the string. Convert Upper case to lower case and lower case to upper case.
+print(str1.swapcase())
+
+#--------------------------------------------------------------
+str1 = "His name is Dan. Dan is an honest man."
+#convert to titleformat
+print(str1.title())
+#-----------------------------------------------------------------------
+
+#---------------
+#---------------
+
 ## 17
 
 # We declared a variable N for you.
@@ -8,7 +114,7 @@
 N = 11 # Write your answer below
 
 
-#------------------------------------------------------------
+#----------------------------------------------------------------------
 
 # Print all numbers from 42 to 59 (inclusive):
 
@@ -26,10 +132,6 @@ for i in range(N+1): # +1 to get upto 11
     print(i)
 
 #---------------------------------------------------------------------------
-
-
-
-
 
 #-------------------
 #------------------

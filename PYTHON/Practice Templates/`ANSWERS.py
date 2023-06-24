@@ -122,7 +122,7 @@ for i in range(42,60):
     print(i)
 
 
-#----------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
 # We declared a variable N for you.
 # Your task is to print all values from 0 to N (inclusive).
 
@@ -131,7 +131,7 @@ N = 11 # Write your answer below
 for i in range(N+1): # +1 to get upto 11
     print(i)
 
-#---------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------
 
 #-------------------
 #------------------
@@ -146,7 +146,7 @@ lines = ["My candle burns at both ends;", "It will not last the night;", "But ah
 for i in lines:
     print(i)
 
-#---------------------------------------------------------
+#--------------------------------------------------------------------------------
 
 # Increase by one each value contained in the values list.
 # Make the new list
@@ -155,7 +155,7 @@ values = [16, 1, 7, 2, 19, 12, 5, 20, 2, 10, 10, 14, 17, 14, 1, 16, 19, 7, 9, 19
 values = [i+1 for i in values]
 print(values)
 
-#------------------------------------------------------------
+#---------------------------------------------------------------------------------------
 
 # Define a reversed_values variable whose values are the values in the values list, but in reversed order.
 values = [16, 1, 7, 2, 19, 12, 5, 20, 2, 10, 17, 14, 1, 9]
@@ -168,7 +168,7 @@ for i in range(len(values)):
 
 print(reversed_values)
 
-#------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------
 
 # What will be the value of values_copy after we execute the following code:
 values = [5, 4, 7, 8, 9, 3]
@@ -180,7 +180,54 @@ for v in values:
 # ANSWER:
 [5, 4, 7, 8, 9, 3]
 
+#--------------------------------------------------------------------------------------------------
+colors = ["voilet", "indigo", "blue", "green"]
+# Change value of an item
+colors[2] = "Red"
+print(colors)
 
-#----------------------------------------------------------------
+
+#----------------------
+
+#----------------------
+
+# 25
 
 
+
+tup1 = ('Spain', 'Italy', 'Finland', 'Germany', 'Russia')
+
+#convert to list
+
+list1 = list(tup1)
+
+#-------------------------------------------------------------------------------------------------
+
+## indexing -
+
+
+# index of "Germany"
+
+print(tup1.index("Germany"))
+
+#-------------------------------------------------------------------------------------
+
+# index of "Germany" in range 2 to 4
+
+print(tup1.index("Germany", 2, 4))
+
+#_-------------------------------------------------------------------------------------
+
+# insert "added:"" in 2 index:
+
+temp = list(tup1)
+temp.insert(2, "added")
+temp2 = tuple(temp)
+print(temp2)
+
+#-------------------------------------------------------------------------------------
+
+# count all 3
+
+Tuple1 = (0, 1, 2, 3, 2, 3, 1, 3, 2)
+print(Tuple1.count(3))

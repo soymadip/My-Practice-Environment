@@ -178,7 +178,7 @@ for v in values:
     values_copy.append(v)
 
 # ANSWER:
-[5, 4, 7, 8, 9, 3]
+[5, 4, 7, 8, 9, 3] #type:ignore
 
 #--------------------------------------------------------------------------------------------------
 colors = ["voilet", "indigo", "blue", "green"]
@@ -221,7 +221,7 @@ print(tup1.index("Germany", 2, 4))
 # insert "added:"" in 2 index:
 
 temp = list(tup1)
-temp.insert(2, "added")
+temp.insert(2, "added") # type: ignore
 temp2 = tuple(temp)
 print(temp2)
 

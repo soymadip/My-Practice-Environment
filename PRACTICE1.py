@@ -1,3 +1,4 @@
+# rename to PRACTICE
 # Practice Template
 # Only use for practice 
 
@@ -5,6 +6,3 @@
 
 
 
-print(1223345678899**12345678)
-
-    

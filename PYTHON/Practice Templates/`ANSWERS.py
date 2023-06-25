@@ -231,3 +231,36 @@ print(temp2)
 
 Tuple1 = (0, 1, 2, 3, 2, 3, 1, 3, 2)
 print(Tuple1.count(3))
+
+#-------------------
+#-------------------
+
+## 30
+
+
+# function to calculate factorial:
+
+def factorial(n): # this thing has a limit of 999 though😁
+    if(n == 0 or n == 1):
+        return 1
+    else:
+        return n*factorial(n-1)
+
+#--------------------------------------------------------------------------------------------------------------
+
+# function to calculate Fibonassi number:
+#it works like this: 
+# f(0) = 0, f(1) = 1, f(2) = 1+0 = 1, f(3) = 2+1 = 3, f(4) = 3+2 = 5, f(5) = 4+3 = 7 
+# f(0) = 0, f(1) = 1, f(n) = f(n-1) + f(n-2)
+
+def fibonassi(n):
+    if(n == 1):
+        return 1
+    elif(n == 0):
+        return 0
+    else:
+        return ((n-1) + (n-2))
+    
+
+#--------------------------------------------------------------------------------------------------------------
+

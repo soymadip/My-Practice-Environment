@@ -23,14 +23,24 @@ def fibonassi(n):
 
 # function to calculate both- 
 
-function = int(input('''Here is my supported functions:\nPress 1 to calculate "Fibonassi Number".\n Press 2 to calculate "Factorial" of a number.\n Press 3 to calculate Both.\nGimme input according to What you wanna calculate:'''))
-input = int(input('Now give me the number you wanna calculate:'))
+def calculator(input, function):
+    '''i am geting brackes at my output. gotta fix it later''' # sucks to be a beginner!!
+    if(input >= 999):
+        return('sorry sir my limit is 999.\nI can not calculate from 4 digit numbers..')
+    elif(function == 1):
+        return(f'fibonassi number of {input} is:', fibonassi(input))
+    elif(function == 2):
+        return(f'Factorial of {input} is',factorial(input))
+    elif(function == 3):
+        return(f'Factorial of {input} is',factorial(input),f'\nFibonassi number of {input} is',fibonassi(input))
+    else:
+        return(f'your input {input} is not in my supported functions')
 
-if(function == 1):
-    print(fibonassi(input))
-elif(function == 2):
-    print(factorial(input))
-elif(function == 3):
-    print(f"Factorial of {input} is",factorial(input),f"\nFibonassi number of {input} is",fibonassi(input))
-else:
-    print(f'your input {input} is not in my supported functions')
+# Finally input & output:
+
+function = int(input('''Here is my supported functions:\nPress 1 to calculate "Fibonassi Number".\n Press 2 to calculate "Factorial" of a number.\n Press 3 to calculate Both.\nGimme input according to What you wanna calculate:'''))
+input = int(input('Now give me the number you wanna calculate2:'))
+print(calculator(input, function))
+
+
+

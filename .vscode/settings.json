@@ -2,5 +2,6 @@
     "[markdown]": {
         "editor.wordWrap": "on",
         "diffEditor.wordWrap": "on"
-    }
+    },
+    "python.analysis.typeCheckingMode": "basic"
 }

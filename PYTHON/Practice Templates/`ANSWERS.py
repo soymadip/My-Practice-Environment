@@ -264,3 +264,112 @@ def fibonassi(n):
 
 #--------------------------------------------------------------------------------------------------------------
 
+#----------------------
+#----------------------
+
+## 32
+
+# rename to PRACTICE
+# Practice Template
+# Only use for practice 
+
+# this file won't be uploaded to Git
+
+c = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+c2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+
+# union :
+c3 = c.union(c2)
+print(c3)
+
+# union_update:
+
+c.update(c2) # updating c
+print(c)
+
+c2.update(c) # updatimg c2
+print(c2)
+print(c)
+
+# intersection 
+c4 = c.intersection(c2)
+print(c4)
+
+#   symmetric difference:
+c5 = c.symmetric_difference(c2)
+print(c5)
+
+#   difference :
+
+c6 = c.difference(c2)
+print('added')
+print(c6)
+
+
+bunty = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+rohan = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+
+guddu = bunty.symmetric_difference(rohan)
+print(guddu)
+
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities3 = cities.symmetric_difference(cities2)
+print(cities3)
+
+
+#-----------------------------------------------------------------------------------------------------------
+
+#--------------------
+#--------------------
+
+
+## 34
+
+    
+dic = {'name':'Karan', 'age':19, 'eligible':True}
+    
+# access single value
+
+print(dic.get('name'))
+
+# access all vales
+print(dic.values())
+
+# access all keys:
+
+print(dic.keys())
+
+# access key-value pairs:
+
+print(dic.items())
+
+# Update value:
+
+dic.update({'sdsd': True})
+
+# Clear all items in dictionary:
+
+dic.clear()
+
+# remove an item:
+
+dic.pop('age')
+del dic['age']
+
+# remove last item:
+
+dic.popitem()
+
+# clear dictionary:
+
+dic.clear()
+
+# delete ites:
+
+del dic
+
+#------------------
+#------------------
+
+

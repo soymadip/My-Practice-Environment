@@ -225,4 +225,4 @@ for i in names:
 ['Milo', 'Bruno', 'Rosa']
  ```
 
-## [[23 - List Methods-Slicing|Next Lesson>>]]
+## [[23 - List Methods|Next Lesson>>]]

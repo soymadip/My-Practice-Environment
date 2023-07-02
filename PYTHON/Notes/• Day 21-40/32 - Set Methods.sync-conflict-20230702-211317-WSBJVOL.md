@@ -7,7 +7,7 @@
 The union() prints all items that are **present in the two sets**. 
 
 ![[Union.jpg|200]]
-- The union() method returns a new set ^732c24
+- The union() method returns a new set
 
 
 #### Example:

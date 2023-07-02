@@ -1,6 +1,10 @@
 # Python Sets
 
-Sets are unordered collection of data items. They store multiple items in a single variable. Set items are separated by commas and enclosed within curly brackets {}. Sets are unchangeable, meaning you cannot change items of the set once created. Sets do not contain duplicate items.
+- Sets are **unordered** collection of data items.  
+- in output it doesn't maintain set's order.
+- Sets do not contain duplicate items.
+- Set is enclosed within curly brackets {}, where Lists are with [] & Tuples are with () 
+- Sets are unchangeable, so insert(),append(),extend(),count() are unusable.
 
 #### Example:
 ```python
@@ -9,17 +13,29 @@ print(info)
 ```
 #### Output:
 ```
-{False, 19, 5.9, 'Carla'}
+{False, 19, 5.9, 'Carla'} # not in orignal set's order
  ```
 
-Here we see that the items of set occur in random order and hence they cannot be accessed using index numbers. Also sets do not allow duplicate values.
+Here we see that the items of set occur in random order and hence **they cannot be accessed using index numbers**. 
 
- **Quick Quiz:** Try to create an empty set. Check using the type() function whether the type of your variable is a set
+### **How to create empty set?** 
+- To create empty set, we can not use '{ }' as it will create a ==dictionary==.
+- so we have to use `set( )`
+```python
+	s = set()
+	s1 = {}
 
+    print(type(s))
+    print(type(s1))
+```
+- Output:
+```python
+<class 'set'>  # set
+<class 'dict'> # dictionary
+```
 ---
 ## Accessing set items:
  
-
 ### Using a For loop
 You can access items of set using a for loop. 
 

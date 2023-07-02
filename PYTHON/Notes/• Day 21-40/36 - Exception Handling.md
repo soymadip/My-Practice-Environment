@@ -1,6 +1,7 @@
 # Exception Handling
 
-**Exception handling** is the process of responding to unwanted or unexpected events when a computer program runs. Exception handling deals with these events to avoid the program or system crashing, and without this process, exceptions would disrupt the normal operation of a program.
+**Exception handling** is the process of responding to unwanted or unexpected events when a computer program runs. 
+Exception handling deals with these events to avoid the program or system crashing, and without this process, exceptions would disrupt the normal operation of a program.
 
 ---
 # Exceptions in Python
@@ -11,11 +12,11 @@ When these exceptions occur, the Python interpreter stops the current process an
 
 # Python try...except
 
-try….. except blocks are used in python to handle errors and exceptions. The code in try block runs when there is no error. If the try block catches the error, then the except block is executed. 
+**try**….. **except** blocks are used in python to handle errors and exceptions. The code in try block runs when there is no error. If the try block catches the error, then the except block is executed. 
 
 ## Syntax:
  ```python
- try:
+try:
       #statements which could generate 
       #exception
 except:
@@ -30,12 +31,12 @@ except ValueError:
     print("Number entered is not an integer.")
  ```
 
-## Output:
-```
+### Output:
+```python
 Enter an integer: 6.022
-Number entered is not an integer.
+Number entered is not an integer. # This is the error
 ```
 
-
+# More in Next Lesson(s).
 
 ## [[37 - Finally Keyword|Next Lesson>>]]

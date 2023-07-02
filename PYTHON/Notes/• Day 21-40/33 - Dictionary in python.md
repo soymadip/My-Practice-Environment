@@ -1,26 +1,31 @@
 # Python Dictionaries
 
-Dictionaries are ordered collection of data items. They store multiple items in a single variable. Dictionary items are key-value pairs that are separated by commas and enclosed within curly brackets {}.
+- Dictionaries are ordered collection of data items. 
+- They store multiple items in a single variable. 
+- Dictionary items are key-value pairs that are separated by commas and enclosed within curly brackets `{ }`.
 
 #### Example:
 ```python
 info = {'name':'Karan', 'age':19, 'eligible':True}
+
 print(info)
 ```
 #### Output:
-```
+```python
 {'name': 'Karan', 'age': 19, 'eligible': True}
 ```
 ## Accessing Dictionary items:
 
 ### I. Accessing single values:
+
 Values in a dictionary can be accessed using keys. We can access dictionary values by mentioning keys either in square brackets or by using get method.
 
 #### Example:
 ```python
 info = {'name':'Karan', 'age':19, 'eligible':True}
+
 print(info['name'])
-print(info.get('eligible'))
+print(info.get('eligible')) # i use this one
 ```
 #### Output:
 ```
@@ -71,4 +76,4 @@ dict_items([('name', 'Karan'), ('age', 19), ('eligible', True)])
 ```
 
 
-## [[34 - Dictionary Methods|Next Lesson>>]]
+# [[34 - Dictionary Methods|Next Lesson>>]]

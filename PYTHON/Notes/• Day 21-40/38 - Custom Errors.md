@@ -29,4 +29,4 @@ except CustomError:
 This is useful because sometimes we might want to do something when a particular exception is raised. For example, sending an error report to the admin, calling an api, etc.
 
 
-## [[39 - Exercise 3= Solution|Next Lesson>>]]
+## [[39 - Exercise 3~ Solution|Next Lesson>>]]

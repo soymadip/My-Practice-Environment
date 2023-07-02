@@ -11,7 +11,9 @@ Based on this, the conditional statements are further classified into following 
 
 ### if the expression evaluates True:
 Execute the block of code inside if statement. After execution return to the code out of the if……else block.\
+
 ### if the expression evaluates False:
+
 Execute the block of code inside else statement. After execution return to the code out of the if……else block.
  ## Example:
 ```python
@@ -26,6 +28,7 @@ else:
 ```
 Alexa, do not add Apples to the cart.
 ```
+
 # elif Statements
 Sometimes, the programmer may want to evaluate more than one condition, this can be done using an elif statement.
 ### Working of an elif statement
@@ -55,6 +58,7 @@ else:
 ```
 Number is Zero.
 ```
+
 # Nested if statements
 We can use if, if-else, elif statements inside other if statements as well. \
 Example:
@@ -77,6 +81,21 @@ Output:
 Number is between 11-20
 ```
 
+# My Doubt:
+
+> If we wanna use 2 conditions in if or elfi statement, we have yo use <mark style="background: #5c5959;">and</mark>:
+## Example:
+```python
+time1 = 10
+if(time1<5 and time1>12):
+    print("Good Moening Sir")
+```
+
+### Output:
+```
+Good Moening Sir
+```
+
 ---
 
-## [[15 - Exercise 2~ Good morning sir|Next Lesson>>]]
+# [[15 - Exercise 2~ Good morning sir|Next Lesson>>]]

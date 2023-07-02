@@ -204,8 +204,9 @@ print(str1.index("Daniel"))
 ValueError: substring not found
  ```
 
-## isalnum() :
+## <mark style="background: #FF5582A6;">isalnum() :</mark>
 The isalnum() method returns True only if the entire string only consists of A-Z, a-z, 0-9. If any other characters or punctuations are present, then it returns False.
+
 ### Example 1:
 ```python
 str1 = "WelcomeToTheConsole"
@@ -215,8 +216,9 @@ Output:
 ```
 True
  ```
-## isalpha() :
-The isalnum() method returns True only if the entire string only consists of A-Z, a-z. If any other characters or punctuations or numbers(0-9) are present, then it returns False.
+## <mark style="background: #FF5582A6;">isalpha() :</mark>
+
+The isalpha() method returns True only if the entire string only consists of A-Z, a-z. If any other characters or punctuations or numbers(0-9) are present, then it returns False.
 ### Example :
 ```python
 str1 = "Welcome"
@@ -228,6 +230,7 @@ True
  ```
 
 ## islower() :
+
 The islower() method returns True if all the characters in the string are lower case, else it returns False. 
 ### Example:
 ```python
@@ -250,7 +253,8 @@ print(str1.isprintable())
 ```
 True
  ```
-## isspace() :
+## <mark style="background: #FF5582A6;">isspace() :</mark>
+
 The isspace() method returns True only and only if the string contains white spaces, else returns False.
 ### Example:
 ```python
@@ -313,6 +317,7 @@ True
  ```
 
 ## swapcase() : 
+
 The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
 ### Example:
 ```python
@@ -324,7 +329,7 @@ print(str1.swapcase())
 pYTHON IS A iNTERPRETED lANGUAGE
  ```
 
-### title() :
+## title() :
 The title() method capitalizes each letter of the word within the string.
 ### Example:
 ```python
@@ -336,4 +341,4 @@ print(str1.title())
 He'S Name Is Dan. Dan Is An Honest Man.
 ```
 
-## [Next Lesson>>](./14.1.md)
+## [[14 - if-else Statements|Next Lesson>>]]

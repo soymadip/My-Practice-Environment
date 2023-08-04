@@ -49,4 +49,7 @@ Out of loop
       # as loop is broken
 ```
 
-## [[36 - Exception Handling|Next Lesson>>]]
+> [!info] Else will be printed only if loop's condition is not met, like in the end of the loop when conditions are met and loop is finished.....
+
+---
+# [[36 - Exception Handling|Next Lesson>>]]

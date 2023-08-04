@@ -7,7 +7,8 @@ if not 2000 < salary < 5000:
     raise ValueError("Not a valid salary")
 ```
 
-In the previous tutorial, we learned about different built-in exceptions in Python and why it is important to handle exceptions. However, sometimes we may need to create our own custom exceptions that serve our purpose.
+sometimes we may need to create our own custom exceptions that serve our purpose.
+like if we wanna stop function in an error.
 
 ---
 ## Defining Custom Exceptions
@@ -29,4 +30,5 @@ except CustomError:
 This is useful because sometimes we might want to do something when a particular exception is raised. For example, sending an error report to the admin, calling an api, etc.
 
 
+---
 ## [[39 - Exercise 3~ Solution|Next Lesson>>]]

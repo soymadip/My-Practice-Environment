@@ -37,6 +37,9 @@ Rs. 25,00,000
 
 11	Rs. 6,40,000
 
+---
+# Solution:-
 
 
-## [[40 - Exercise 4~ program to translate a message into secret code language|Next Lesson>>]]
+
+# [[40 - Exercise 4~ program to translate a message into secret code language|Next Lesson>>]]

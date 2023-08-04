@@ -1,6 +1,6 @@
-1. Auto markdown preview
-2. GitHub theme
-3. Gitlens
+1. Markdown Preview Opener
+2. Nord Theme
+3. Pyright (Pylance Alt)
 4. Import cost
 5. Indent rainbow
 6. Console log

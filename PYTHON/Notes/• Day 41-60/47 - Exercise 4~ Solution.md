@@ -35,4 +35,4 @@ else:
 
 ---
 
-## [[48|Next Lesson>>]]
+## [[48 - local vs global variables|Next Lesson>>]]

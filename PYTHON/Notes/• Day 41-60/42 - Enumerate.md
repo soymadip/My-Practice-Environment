@@ -1,6 +1,8 @@
 # Enumerate function in python
 
-The enumerate function is a built-in function in Python that allows you to loop over a sequence (such as a list, tuple, or string) and get the index and value of each element in the sequence at the same time. Here's a basic example of how it works:
+The enumerate function is a built-in function in Python that allows you to loop over a sequence (such as a list, tuple, or string) and get the index and value of each element in the sequence at the same time. 
+
+Here's a basic example of how it works:
 ```python
 # Loop over a list and print the index and value of each element
 fruits = ['apple', 'banana', 'mango']
@@ -18,7 +20,7 @@ The output of this code will be:
 
 ```
 
-As you can see, the enumerate function returns a tuple containing the index and value of each element in the sequence. You can use the for loop to unpack these tuples and assign them to variables, as shown in the example above.
+Here, `index` & `fruits` is being looped simultaneously & index=(previous value) +1 is added per loop. 
 
 ---
 # Changing the start index
@@ -29,7 +31,7 @@ By default, the enumerate function starts the index at 0, but you can specify a 
 ```python
 # Loop over a list and print the index (starting at 1) and value of each element
 fruits = ['apple', 'banana', 'mango']
-for index, fruit in enumerate(fruits, start=1):
+for index, fruit in enumerate(fruits, start=1): # now index is started from 1 instead of 0
     print(index, fruit)
 
 ```

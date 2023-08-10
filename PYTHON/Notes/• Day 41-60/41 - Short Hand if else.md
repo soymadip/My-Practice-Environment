@@ -1,10 +1,22 @@
 ## If ... Else in One Line
 
-There is also a shorthand syntax for the if-else statement that can be used when the condition being tested is simple and the code blocks to be executed are short. Here's an example:
+There is also a shorthand syntax for the if-else statement, that can be used when the condition is simple and the code blocks are short. 
+
+Here's an example:
+#### Normally:
+```python
+if(a>b):
+    print("A")
+elif(a==b):
+    print("=")
+else:
+    pass
+```
+#### In shortHand:-
 ```python
 a = 2
 b = 330
-print("A") if a > b else print("B")
+print("A") if a > b else print("B") if a=b else "" # it's pronunced as this: print("A") if a > b,   else print("B") if a=b,  else ""
 ```
 
 You can also have multiple else statements on the same line:
@@ -14,12 +26,13 @@ One line if else statement, with 3 conditions:
 ```python
 a = 330
 b = 330
-print("A") if a > b else print("=") if a == b else print("B")
+print("A") if a > b else print("=") if a == b else print("B") # it's pronunced as this: print("A") if a > b,   else print("=")
 ```
 
-## Another Example:- 
+## Syntax:- 
 ```python
-result = value_if_true if condition else value_if_false
+
+result = value_if_true if condition, else value_if_false
 
 ```
 

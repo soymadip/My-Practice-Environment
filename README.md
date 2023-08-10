@@ -10,7 +10,7 @@
 
 - First fork this repo.
 - Then clone your forked repo using **Git** :-
-  - For Linux(Ubuntu):-
+  - For Linux(Debian & derivatives):-
     
     ```
     sudo apt install git

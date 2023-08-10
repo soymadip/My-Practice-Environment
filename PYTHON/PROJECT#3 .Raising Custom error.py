@@ -1,6 +1,6 @@
 
 
-for i in range(10): # will try to run 9 times
+for i in range(10): # will try to run 10 times
     i = input('nter your number: ')
 
     if(str(i) == 'quit'):

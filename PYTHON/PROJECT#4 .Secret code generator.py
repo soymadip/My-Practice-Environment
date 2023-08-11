@@ -1,4 +1,5 @@
 # Not enough knoledge
+# Pending
 
 inp= input('please enter your message: ')
 

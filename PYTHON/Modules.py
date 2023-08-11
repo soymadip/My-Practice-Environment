@@ -50,6 +50,11 @@ def Fa_FibiCalculator(input_num, function):
 
 
 
-if __name__=="__main__":
+if __name__=="__main__": # for learning purposes of __name__
     print(fibonacci(5))
+
+
+
+
+
     

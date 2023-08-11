@@ -49,4 +49,4 @@ It's important to note that the `if __name__ == "__main__"` idiom is not require
 
 ---
 
-## [[46 - OS Module|Next Lesson>>]]
+## [[46 - OS Modules|Next Lesson>>]]

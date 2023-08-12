@@ -1,9 +1,9 @@
 # This is a small Python file to automatically move my backed up files to proper directories.
 # In case of reseting my PC or system crash.  
 # And this is my 1st code that can be used for practical/real-life Problems.😇
-# Run python3 -u "<Path to this file>"
-# IF YOU WANNA USE IT, PLEASE MAKE SURE THAT YOU ARE USING FRESH INSTALL.
+# IF YOU WANNA USE IT, PLEASE MAKE SURE THAT YOU ARE USING AFTER FRESH OS INSTALL.
 # BECAUSE THIS SCRIPT WILL CRASH OR DELETE YOUR OLD FILES IN DIRECTORIES.
+# Run python3 -u "<Path to this file>"
 
 import os, shutil               # importing modules
 
@@ -23,17 +23,17 @@ Dicts = {
     ".themes": f'{Home}',
     ".vscode-oss": f'{Home}',
     "V-environment": f'{Home}',
-     "Documents": f'{Home}',
+    "Documents": f'{Home}',
     ".librewolf": f'{Home}',
                                  # space for clarity between separate Paths.
     "libreoffice": f'{Path2}',
     "mpv": f'{Path2}',
     "syncthing": f'{Path2}',
-     "VSCodium": f'{Path2}'
+    "VSCodium": f'{Path2}'
 }
 
 
-#__________________ All Restore Functions _____________________________________________
+#__________________ All Restore Functions ____________________________________________
 
 
 # Making  directories if they don't exist:-

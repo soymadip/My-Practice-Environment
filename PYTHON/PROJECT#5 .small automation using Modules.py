@@ -23,13 +23,13 @@ Dicts = {
     ".themes": f'{Home}',
     ".vscode-oss": f'{Home}',
     "V-environment": f'{Home}',
-    # "Documents": f'{Home}',
+     "Documents": f'{Home}',
     ".librewolf": f'{Home}',
                                  # space for clarity between separate Paths.
     "libreoffice": f'{Path2}',
     "mpv": f'{Path2}',
     "syncthing": f'{Path2}',
-    # "VSCodium": f'{Path2}'
+     "VSCodium": f'{Path2}'
 }
 
 

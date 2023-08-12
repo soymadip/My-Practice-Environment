@@ -91,5 +91,24 @@ print(info)
 {'name': 'Karan', 'age': 19, 'eligible': True}
  ```
 
+
+## Loop in Dictionary:
+> We can use loop with Dictionaries with `.item()` 
+
+```python
+Dict = {'name':'Karan', 'age':19, 'eligible':True, 'DOB':2003}
+
+for k,v in Dict.items():  # k,v represents keys, values.
+	print(f'{k}:',v)
+
+
+# Output:
+name: Karan
+age: 19
+eligible: True
+DOB: 2003
+
+```
+
 ---
 ## [[35 - For loop with else|Next Lesson>>]]

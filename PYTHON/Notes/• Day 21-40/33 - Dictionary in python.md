@@ -14,6 +14,20 @@ print(info)
 ```python
 {'name': 'Karan', 'age': 19, 'eligible': True}
 ```
+
+>[!example] Info
+>- we can also write dictionaries like this:
+>```python
+>  info = {
+>    'name': 'Karan',
+>    'age': 19,
+>    'eligible': True
+>}
+>```
+>- This can be used to make code more user-friendly.
+
+
+ 
 ## Accessing Dictionary items:
 
 ### I. Accessing single values:

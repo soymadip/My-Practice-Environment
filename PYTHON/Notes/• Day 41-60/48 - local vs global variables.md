@@ -1,7 +1,8 @@
 
-Before we dive into the differences between local and global variables, let's first recall what a variable is in Python.
+>[!recap]
+> Before we dive into the differences between local and global variables, let's first recall what a variable is in Python.
 
-A variable is a named location in memory that stores a value. In Python, we can assign values to variables using the assignment operator =. For example:
+- A variable is a named location in memory that stores a value. In Python, we can assign values to variables using the assignment operator =. For example:
 ```python 
 x = 5
 y = "Hello, World!"
@@ -28,10 +29,13 @@ print(y) # this will cause an error because y is a local variable and is not acc
 
 ```
 In this example, we have a global variable x and a local variable y. We can access the value of the global variable x from within the function, but we cannot access the value of the local variable y outside of the function.
+
+---
 # The global keyword
 Now, what if we want to modify a global variable from within a function? This is where the global keyword comes in.
 
-The global keyword is used to declare that a variable is a global variable and should be accessed from the global scope. Here's an example:
+The global keyword is used to declare that **a variable is a global variable and should be accessed from the global scope**.
+- Here's an example:
 ```python 
 x = 10 # global variable
 
@@ -48,8 +52,9 @@ print(y) # this will cause an error because y is a local variable and is not acc
 
 In this example, we used the global keyword to declare that we want to modify the global variable x from within the function. As a result, the value of x is changed to 5.
 
-It's important to note that it's generally considered good practice to avoid modifying global variables from within functions, as it can lead to unexpected behavior and make your code harder to debug.
+>[!info]
+>- It's important to note that it's generally considered *good practice* to avoid modifying global variables from within functions, as it can lead to unexpected behavior and make your code harder to debug.
 
-I hope this tutorial has helped clarify the differences between local and global variables and how to use the global keyword in Python. Thank you for watching!
-## [[49 - readlines() method|Next Lesson>>]]
+---
+# [[49 - readlines() method|Next Lesson>>]]
 

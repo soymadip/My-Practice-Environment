@@ -5,32 +5,33 @@
 # BECAUSE THIS SCRIPT CAN CRASH OR DELETE YOUR OLD FILES IN DIRECTORIES.
 # Run sudo python3 -u "<Path to this file>"
 
-#____________________ User configs ________________________________________________
+#____________________ User configs ____________________________________________________________
 
 # Paths:
 Root= "/home"                        # root directory
 Home= f"{Root}/sd"                   # home directory. pattern: /{Root_folder}/<your username>
-Pck_Mger= "nala"                     # The package manager your OS is using. I am using Nala as apt.
-BckpPath="/mnt/sdb1/SDD BACKUP"    # where Backup folder is located.
+BckpPath="/mnt/sdb1/SDD BACKUP"      # where Backup folder is located.
 Rest_flname="restore.py"             # This file's name. CHANGE IT YOU YOU'VE CHANGED THIS FILE'S NAME.
-CPath=f"{Home}/.config"              # path to .Config Dict.  also can be added directly instead of using variable.
+CPath=f"{Home}/.config"              # path to .Config Directory. for dotfiles.
+# Misc:
+Pck_Mger= "nala"                     # The package manager your OS is using. I am using Nala as apt.
 
-# Backed up directories: 
+# Backed up directories:
 Dicts = {
-    ".mozilla": f'{Home}',           # Pattern: "<directory name>":f'<path>',
+    ".mozilla": f'{Home}',           # Pattern: "<directory name>":f'<path>', Edit as you need.
     ".themes": f'{Home}',
-    ".vscode-oss": f'{Home}',
+    ".vscode-oss": f'{Home}',        # Also path can be added directly instead of using variable.
     "Documents": f'{Home}',
     ".librewolf": f'{Home}',
     ".antigen": f'{Home}',
-                                     # space for clarity between separate Paths.
+                                     # space for clarity between separate Parent-directories.
     "libreoffice": f'{CPath}',
     "mpv": f'{CPath}',
     "syncthing": f'{CPath}',
     "VSCodium": f'{CPath}',
     "neofetch": f'{CPath}',
     "kdedefaults": f'{CPath}',
-#    "plasmaConfSaver": f'{CPath}',  # Don't need. just for reminder.
+#    "plasmaConfSaver": f'{CPath}',  # i Don't need this. just for reminder.
     "menus": f'{CPath}',
     "gtk-4.0": f'{CPath}'
 }
@@ -38,18 +39,21 @@ Dicts = {
 
 # Use  'Ctrl+s' & 'meta+x' to save,quit this file.
 
-# ------------- DON'T TOUCH ANYTHING AFTER THIS --------------------------------------
+# ------------------ DON'T TOUCH ANYTHING AFTER THIS --------------------------------------
+# ----------------- UNLESS YOU KNOW WHAT YOU'RE DOING -------------------------------------
 
-#__________________ All Restore Functions ____________________________________________
+#________________________ All Restore Functions _________________________________________________
 
-import os, shutil                        # Gotta know more abput this 'shutil' module. 
+import os, shutil                        # Gotta know more abput this 'shutil' module.
 
 
 # start with 'ask-edit' wizard:-
 def get_user_choice(inp):
-    global wpath                  
+    global wpath
     wpath= os.getcwd()                    # this is global
-    if(inp=='y'):
+    if(inp=='n'):
+        pass
+    else:
         os.system(f'nano "{wpath}/{Rest_flname}"')
 
 
@@ -116,7 +120,7 @@ def restore(Directory):
 
 if(__name__=="__main__"): # for safety
     os.system('clear')    # clear terminal screen
-    ans= input('Do you wanna change default configs? [y/n]\n>>> ')
+    ans= input('|---------- Activation Wizard -----------\n|\n|- Do you wanna change default configs? [y/n]\n|>>> ')
     get_user_choice(ans)
     os.system('clear')
     restore(Dicts)

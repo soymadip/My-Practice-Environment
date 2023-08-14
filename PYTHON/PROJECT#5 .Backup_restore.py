@@ -31,7 +31,7 @@ Dicts = {
     "VSCodium": f'{CPath}',
     "neofetch": f'{CPath}',
     "kdedefaults": f'{CPath}',
-#    "plasmaConfSaver": f'{CPath}',  # i Don't need this. just for reminder.
+#    "plasmaConfSaver": f'{CPath}',  # I Don't need this. just for reminder.
     "menus": f'{CPath}',
     "gtk-4.0": f'{CPath}'
 }

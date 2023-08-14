@@ -9,7 +9,7 @@
 
 # Paths:
 Root= "/home"                        # root directory
-Home= f"{Root}/sd"                   # home directory. pattern: /{Root_folder}/<your username>
+Home= f"{Root}/sd/2"                   # home directory. pattern: /{Root_folder}/<your username>
 BckpPath="/mnt/sdb1/SDD BACKUP"      # where Backup folder is located.
 Rest_flname="restore.py"             # This file's name. CHANGE IT YOU YOU'VE CHANGED THIS FILE'S NAME.
 CPath=f"{Home}/.config"              # path to .Config Directory. for dotfiles.
@@ -47,7 +47,7 @@ Dicts = {
 import os, shutil                        # Gotta know more abput this 'shutil' module.
 
 
-# start with 'ask-edit' wizard:-
+# First setup wizard:-
 def get_user_choice(inp):
     global wpath
     wpath= os.getcwd()                    # this is global
@@ -61,8 +61,7 @@ def get_user_choice(inp):
 def CheckPaths(Dict):
     print('|\n|-\033[1;32m☢️  Directory check Started:-\033[0m\n|\n|')
     for k,v in Dict.items():
-        split = v.split(f'{Home}')
-        sp= split[1]
+        sp = v.split(f'{Home}')[1]
         print('|')
         if(not os.path.exists(f'{v}/{k}')):
             os.makedirs(f"{v}/{k}/", exist_ok=True)
@@ -94,8 +93,6 @@ def copy(src, dst, symlinks=False, ignore=None): # symlinks will be copied as re
                 os.makedirs(os.path.dirname(d), exist_ok=True)
                 shutil.copy2(s, d)
 
-
-# For Restoring:-
 def copytree(Dict):
     print('|\n|-\033[1;32m☢️  Starting to move backed-up folders.\033[0m\n|\n|')
     for k,v in Dict.items():
@@ -104,6 +101,8 @@ def copytree(Dict):
         print(f'|- Done.\n|')
     print('|\n|\n|-\033[1;32m☢️  Finished Moving.\033[0m')
 
+
+# For Restoring:-
 def restore(Directory):
     print('|------------------------\n|-⏳\033[1;33m  Restoring Backup..\033[0m\n|\n|\n|')    # for some reason, terminal log needs two spaces to display one space...
     CheckPaths((Directory))
@@ -117,10 +116,10 @@ def restore(Directory):
 #__________________ Triggar ______________________________________________________
 
 #Triggaring restoration process:-
-
+ 
 if(__name__=="__main__"): # for safety
-    os.system('clear')    # clear terminal screen
-    ans= input('|---------- Activation Wizard -----------\n|\n|- Do you wanna change default configs? [y/n]\n|>>> ')
+    os.system('clear')    # clear terminal screen for setup wizard
+    ans= input('|-------------\033[1;33m Setup Wizard \033[0m--------------\n|\n|- Do you wanna change default configs? [\033[1;32my\033[0m/\033[91mn\033[0m]\n|>>> ')
     get_user_choice(ans)
-    os.system('clear')
+    os.system('clear')    # Again clear for clearing before starting restore.
     restore(Dicts)

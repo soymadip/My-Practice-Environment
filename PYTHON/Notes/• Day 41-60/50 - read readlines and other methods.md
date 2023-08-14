@@ -1,5 +1,7 @@
 # readlines() method
-The readline() method reads a single line from the file. If we want to read multiple lines, we can use a loop.
+
+The readline() method **reads a single line from the file**. 
+- If we want to read multiple lines, we can use a loop.
 
 ```python
 f = open('myfile.txt', 'r')

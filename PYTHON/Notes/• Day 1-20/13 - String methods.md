@@ -1,30 +1,24 @@
-
 # String methods
 Python provides a set of built-in methods that we can use to alter and modify the strings.
 
-
 ## upper() :
 The upper() method converts a string to upper case.
-
 ### Example:
 ```python
 str1 = "AbcDEfghIJ"
 print(str1.upper())
-```
-### Output:
-```
+
+# Output:
 ABCDEFGHIJ
  ```
-
 ## lower()
 The lower() method converts a string to lower case.
 ### Example:
 ```python
 str1 = "AbcDEfghIJ"
 print(str1.lower())
-```
-### Output:
-```
+
+# Output:
 abcdefghij
  ```
 

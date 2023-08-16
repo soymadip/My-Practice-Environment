@@ -25,7 +25,7 @@
 - Now open the cloned `My-Created-Projects` folder in your IDE (I am & recomend using VS Code/VS Codium).
 - Open the `main.py`, you will see it's a blank python file so you can write & run your code in that file in your IDE.
 - You can open notes,exercises,projects in new Tabs side by side (this is very efficient).
-- You can also pin `PRACTICE.py` so that your IDE opens with that file at start by default.
+- You can also pin `main.py` so that your IDE opens with that file at start by default.
 - You can also clone my Repo directly but I recomend to fork mine first because it will give more flexibility (if I upload anything new, you can just sync upstream from GitHub..).
 
 

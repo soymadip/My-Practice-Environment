@@ -122,4 +122,4 @@ CodeWithHarry
 ```
 
 
-## [[63 - Exercise 5 ~ Solution|Next Lesson>>]]
+## [[64 - Exercise 6|Next Lesson>>]]

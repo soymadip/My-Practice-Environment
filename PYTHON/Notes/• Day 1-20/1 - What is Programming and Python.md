@@ -35,4 +35,5 @@ This 100 days of code series will help you learn python from starting to the end
 - You can easily fork this repl and continue learning in your own style. Video, code as well as text tutorial on the same page which makes things easy!
 - For fellow teachers out there, you create a .tutorial folder to create tutorials using replit.
 
-## [Next Lesson>>](2%20-%20My%20Python%20Success%20Story.md)
+# i am using VS Code.
+## [[2 - My Python Success Story|Next Lesson>>]]

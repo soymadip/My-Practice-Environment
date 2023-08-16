@@ -115,11 +115,37 @@ def restore(Directory):
 
 #__________________ Triggar ______________________________________________________
 
+ds='''
+ ______             _                 
+(_____ \        _  | |                
+ _____) )   _ _| |_| |__   ___  ____  
+|  ____/ | | (_   _)  _ \ / _ \|  _ \ 
+| |    | |_| | | |_| | | | |_| | | | |
+|_|     \__  |  \__)_| |_|\___/|_| |_|
+       (____/                         
+\033[1;33m
+ ______                                    
+(_____ \              _                    
+ _____) )_____  ___ _| |_ ___   ____ _____ 
+|  __  /| ___ |/___|_   _) _ \ / ___) ___ |
+| |  \ \| ____|___ | | || |_| | |   | ____
+|_|   |_|_____|___/   \__)___/|_|   |_____|
+                                           \033[0m
+ ______              _                 
+(____  \            | |                
+ ____)  )_____  ____| |  _ _   _ ____  
+|  __  ((____ |/ ___) |_/ ) | | |  _ \ 
+| |__)  ) ___ ( (___|  _ (| |_| | |_| |
+|______/\_____|\____)_| \_)____/|  __/ 
+                                |_|'''
+
 #Triggaring restoration process:-
- 
+s1='|-------------\033[1;33m Setup Wizard \033[0m--------------\n|\n|- Do you wanna change default configs? [\033[1;32my\033[0m/\033[91mn\033[0m]\n|>>> '
+
 if(__name__=="__main__"): # for safety
     os.system('clear')    # clear terminal screen for setup wizard
-    ans= input('|-------------\033[1;33m Setup Wizard \033[0m--------------\n|\n|- Do you wanna change default configs? [\033[1;32my\033[0m/\033[91mn\033[0m]\n|>>> ')
+    print(f'{ds}')
+    ans= input(f'{s1}')
     get_user_choice(ans)
     os.system('clear')    # Again clear for clearing before starting restore.
     restore(Dicts)

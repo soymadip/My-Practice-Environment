@@ -87,4 +87,4 @@ print('First occurrence of 3 is', res)
 3
 
 ---
-# [Next Lesson>>](26%20-%20Exercise%202~%20Solution.md)
+# [Next Lesson>>](26%20-%20E2~%20Solution.md)

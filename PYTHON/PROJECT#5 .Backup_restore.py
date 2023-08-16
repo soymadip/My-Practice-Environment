@@ -1,5 +1,4 @@
-# This is a small Python file to automatically move backed up files(dotfiles) to proper directories,
-# In case of reseting my PC or system crash.
+# This is a small Python file to automatically move backed up files(dotfiles) to proper directories, in case of reseting my PC or system crash.
 # And this is my 1st code that has real-life use case.😇
 # IF SOMEONE WANNA USE IT, MAKE SURE THAT YOU ARE USING AFTER FRESH OS INSTALL.
 # BECAUSE THIS SCRIPT CAN CRASH OR DELETE YOUR OLD FILES IN DIRECTORIES.
@@ -9,7 +8,7 @@
 
 # Paths:
 Root= "/home"                        # root directory
-Home= f"{Root}/sd/2"                   # home directory. pattern: /{Root_folder}/<your username>
+Home= f"{Root}/sd/"                  # home directory. pattern: /{Root_folder}/<your username>
 BckpPath="/mnt/sdb1/SDD BACKUP"      # where Backup folder is located.
 Rest_flname="restore.py"             # This file's name. CHANGE IT YOU YOU'VE CHANGED THIS FILE'S NAME.
 CPath=f"{Home}/.config"              # path to .Config Directory. for dotfiles.
@@ -104,7 +103,7 @@ def copytree(Dict):
 
 # For Restoring:-
 def restore(Directory):
-    print('|------------------------\n|-⏳\033[1;33m  Restoring Backup..\033[0m\n|\n|\n|')    # for some reason, terminal log needs two spaces to display one space...
+    print('|------------------------\n|-⏳\033[1;33m  Restoring Backup..\033[0m\n|\n|\n|')    # for some reason, terminal log needs 2 spaces to display one space. (I guess because of text formatting.)
     CheckPaths((Directory))
     print('|\n|-ℹ️  Proceeding to the next step.')
     copytree((Directory))

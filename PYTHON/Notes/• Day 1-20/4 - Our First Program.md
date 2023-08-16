@@ -9,7 +9,6 @@ Write a program to print a poem in Python. Choose the poem of your choice and pu
 
 ```python
 print("---Your poem here---")
-
 ```
 
 Please make sure you attempt this. Might be easy for some of you but please finish each and every task

@@ -14,4 +14,4 @@ print(timestamp)
 # https://docs.python.org/3/library/time.html#time.strftime
 ```
 
-### >>[[26 - Exercise 2~ Solution|Solution]]
+### >>[[26 - E2~ Solution|Solution]]

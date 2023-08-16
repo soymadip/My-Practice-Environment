@@ -4,7 +4,8 @@ In Python, the seek() and tell() functions are used to work with file objects an
 
 ---
 ## seek() function
-The seek() function allows you _to move the current position within a file to a specific point_. The position is specified in bytes, and you can move either forward or backward from the current position. For example:
+The seek() function allows you _to move the current position within a file to a specific point_. The position is specified in bytes, and you can move either forward or backward from the current position. 
+- For example:
 ```python
 with open('file.txt', 'r') as f:
   # Move to the 10th byte in the file
@@ -13,7 +14,6 @@ with open('file.txt', 'r') as f:
   # Read the next 5 bytes
   data = f.read(5)
 ```
-
 ---
 ## tell() function
 The tell() function _returns the current position within the file_, in bytes. This can be useful for keeping track of your location within the file or for seeking to a specific position relative to the current position. For example:

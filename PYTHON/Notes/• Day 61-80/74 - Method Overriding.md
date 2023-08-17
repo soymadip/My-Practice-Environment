@@ -48,4 +48,4 @@ In this example, the Circle class overrides the area method, and calls the base 
 
 In conclusion, method overriding is a powerful feature in Python that allows you to customize the behavior of a class based on its specific needs. By using method overriding, you can create more robust and reliable code, and ensure that your classes behave in the way that you need them to. Additionally, by using the super function, you can extend the behavior of a base class method, rather than replace it, giving you even greater flexibility and control over the behavior of your classes.
 
-## [[75|Next Lesson>>]]
+## [[76 - Exercise 8|Next Lesson>>]]

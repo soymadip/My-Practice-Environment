@@ -139,7 +139,7 @@ ds='''
                                 |_|'''
 
 #Triggaring restoration process:-
-s1='|-------------\033[1;33m Setup Wizard \033[0m--------------\n|\n|- Do you wanna change default configs? [\033[1;32my\033[0m/\033[91mn\033[0m]\n|>>> '
+s1='|-----------\033[1;33m Setup Wizard \033[0m-------------\n|\n|- Do you wanna change default configs? [\033[1;32my\033[0m/\033[91mn\033[0m]\n|>>> '
 
 if(__name__=="__main__"): # for safety
     os.system('clear')    # clear terminal screen for setup wizard

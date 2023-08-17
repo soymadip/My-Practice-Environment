@@ -6,7 +6,7 @@
 
 
 ## Solution:
- ![[63 - Exercise 5 ~ Solution|>>Solution]]
+ ![[63 - Ex5 ~ Solution|>>Solution]]
 
 --- 
 ## [[56 - Intro to oops|Next Lesson>>]]

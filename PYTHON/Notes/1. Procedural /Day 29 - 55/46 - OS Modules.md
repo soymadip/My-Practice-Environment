@@ -119,7 +119,7 @@ Directory 'Nikhil' created
 ### os.remove( ):-
 > **This method is used to delete files.**
 > This method can not **remove or delete a** *directory*.
->  If the specified path is a directory then *OSError will be raised*.
+>  If the specified path is a directory then *OS Error will be raised*.
 ```python
 import os 
 

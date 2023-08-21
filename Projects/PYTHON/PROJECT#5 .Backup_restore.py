@@ -8,31 +8,47 @@
 
 # Paths:
 Root= "/home"                        # root directory
-Home= f"{Root}/sd/"                  # home directory. pattern: /{Root_folder}/<your username>
+Home= f"{Root}/sd/2"                  # home directory. pattern: "/{Root_folder}/<your username>"
 BckpPath="/mnt/sdb1/SDD BACKUP"      # where Backup folder is located.
 Rest_flname="restore.py"             # This file's name. CHANGE IT YOU YOU'VE CHANGED THIS FILE'S NAME.
-CPath=f"{Home}/.config"              # path to .Config Directory. for dotfiles.
+CPath=f"{Home}/.config"              # path to [.Config] Directory. for dotfiles.
+LsPath=f"{Home}/.local/share"        # path to [.local/share] folder. for plasma settings. 
 # Misc:
-Pck_Mger= "nala"                     # The package manager your OS is using. I am using Nala as apt.
+Pck_Mger= "nala"                     # The package manager your OS is using. I am using Nala instead of apt.
 
-# Backed up directories:
+# Back up directories:
 Dicts = {
+    ".librewolf": f'{Home}',
     ".mozilla": f'{Home}',           # Pattern: "<directory name>":f'<path>', Edit as you need.
+    ".oh-my-zsh": f'{Home}',    
     ".themes": f'{Home}',
     ".vscode-oss": f'{Home}',        # Also path can be added directly instead of using variable.
     "Documents": f'{Home}',
-    ".librewolf": f'{Home}',
-    ".antigen": f'{Home}',
                                      # space for clarity between separate Parent-directories.
-    "libreoffice": f'{CPath}',
-    "mpv": f'{CPath}',
-    "syncthing": f'{CPath}',
-    "VSCodium": f'{CPath}',
-    "neofetch": f'{CPath}',
+    "autostart": f'{Home}',
+    "gtk-3.0": f'{CPath}',
+    "gtk-4.0": f'{CPath}',
     "kdedefaults": f'{CPath}',
-#    "plasmaConfSaver": f'{CPath}',  # I Don't need this. just for reminder.
+    "libreoffice": f'{CPath}',
     "menus": f'{CPath}',
-    "gtk-4.0": f'{CPath}'
+    "mpv": f'{CPath}',
+    "neofetch": f'{CPath}',
+    "syncthing": f'{CPath}',
+    "plasma-workspace": f'{CPath}',
+    "VSCodium": f'{CPath}',
+#   "dolphinrc": f'{CPath}',          # crashing, gotta fix this.
+#   "plasmaConfSaver": f'{CPath}',    # I Don't need this. just for reminder.
+#   "systemsettingsrc": f'{CPath}',
+                        
+    "color-schemes": f'{LsPath}',
+    "flatpak": f'{LsPath}',
+    "icons": f'{LsPath}',
+    "knewstuff3": f'{LsPath}',
+    "konsole": f'{LsPath}',
+    "kxmlgui5": f'{LsPath}',
+    "plasma": f'{LsPath}',
+    "systemsettings": f'{LsPath}',
+    "themes": f'{LsPath}'
 }
 
 
@@ -139,7 +155,7 @@ ds='''
                                 |_|'''
 
 #Triggaring restoration process:-
-s1='|-----------\033[1;33m Setup Wizard \033[0m-------------\n|\n|- Do you wanna change default configs? [\033[1;32my\033[0m/\033[91mn\033[0m]\n|>>> '
+s1='|-----------\033[1;33m Setup Wizard \033[0m-------------\n|\n|- Do you wanna change default settings? [\033[1;32my\033[0m/\033[91mn\033[0m]\n|>>> '
 
 if(__name__=="__main__"): # for safety
     os.system('clear')    # clear terminal screen for setup wizard

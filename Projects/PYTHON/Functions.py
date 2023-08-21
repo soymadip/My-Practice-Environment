@@ -1,9 +1,29 @@
+import time
+
+
+#-----------------------------------------------------------------
+
+
+hour = int(time.strftime('%H'))
+def greeting():
+    if(hour>=0 and hour<12):
+        print("Good Morning Sir!")
+    elif(hour>=12 and hour<17):
+        print("Good Afternoon Sir!")
+    elif(hour>=17 and hour<0):
+        print("Good Night Sir!")
+    else:
+        print('Good Night sir!')
+  
+
+
 
 def factorial(n): # this thing has a limit of 999 though😁
     if(n == 0 or n == 1):
         return 1
     else:
         return n*factorial(n-1)
+
 
 
 
@@ -14,6 +34,7 @@ def fibonacci(n):
         return 0
     else:
         return fibonacci(n-1) + fibonacci(n-2)
+
 
 
 
@@ -49,9 +70,6 @@ def Fa_FibiCalculator(input_num, function):
         return (f'your input {input_num} is not in my supported functions') 
 
 
-
-if __name__=="__main__": # for learning purposes of __name__
-    print(fibonacci(5))
 
 
 

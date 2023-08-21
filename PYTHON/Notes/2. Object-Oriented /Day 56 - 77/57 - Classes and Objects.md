@@ -12,16 +12,15 @@ class Details:
  ```
 
 ## Creating an Object:
-Object is the instance of the class used to access the properties of the class
-Now lets create an object of the class.
+>Object is the instance of the class used to access the properties of the class
 
+Now lets create an object of the class.
 ### Example:
 ```python
 obj1 = Details() 
 ```
 
 Now we can print values:
-
 ### Example:
 ```python
 class Details:
@@ -31,9 +30,9 @@ class Details:
 obj1 = Details()
 print(obj1.name)
 print(obj1.age)
-```
-### Output:
-```
+
+
+# Output:
 Rohan
 20
 ```
@@ -41,10 +40,7 @@ Rohan
 # self parameter
 The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
 
-It must be provided as the extra parameter inside the method definition. 
-
- 
-
+It must be provided _as the extra parameter inside the method definition._ 
 ## Example:
 ```python
 class Details:
@@ -57,9 +53,8 @@ class Details:
 obj1 = Details()
 obj1.desc()
  
-```
-## Output:
-```
+
+# Output:
 My name is Rohan and I'm 20 years old.
 ```
 ## [[58 - Constructors|Next Lesson>>]]

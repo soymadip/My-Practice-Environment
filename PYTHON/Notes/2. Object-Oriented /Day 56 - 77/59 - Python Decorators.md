@@ -82,4 +82,4 @@ They are used for a variety of purposes, such as _logging, memorisation, access 
 They are a powerful tool that can be used to make your code more readable, maintainable, and extendable.
 
 ---
-# [[60 - Getters and Setter|Next Lesson>>]]
+# [[62 - Access Specifiers or Modifiers|Next Lesson>>]]

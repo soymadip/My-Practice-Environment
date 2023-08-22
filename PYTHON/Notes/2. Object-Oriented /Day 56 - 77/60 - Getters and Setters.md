@@ -1,7 +1,47 @@
 >[!warning] Recommendation
-> I recommend to watch [this](https://www.youtube.com/watch?v=O3R_P5j41ns) video to understand this topic rather than original video.
+> I recommend to watch [[62 - Access Specifiers or Modifiers|Day 62]] Before this lesson.
+> And for this lesson, i say [this](https://www.youtube.com/watch?v=O3R_P5j41ns) video to understand this topic rather than original video.
 >> Because i found the org video is kinda confusing & doesn't have enough clarity. 
 
+>[!example] My understanding
+> There is something called `encapsulation` & `private variables` in Python.
+> - Getters are used to access these `private variables`.
+> - where setters are used to add some logic to Getters.
+> - Here is an example:
+>> ```python
+>>class Geeks:
+>>	def __init__(self):
+>>		self._age = 0
+>>	
+>>	# using property decorator to get a getter function
+>>	@property
+>>	def age(self):
+>>		print("getter method called")
+>>		return self._age
+>>	
+>>	# a setter function
+>>	@age.setter
+>>	def age(self, a):
+>>		if(a < 18):
+>>			raise ValueError("Sorry you age is below eligibility criteria")
+>>		print("setter method called")                       # value error doesn't need `else`
+>>		self._age = a
+>>
+>>mark = Geeks()
+>>mark.age = 19
+>>print(mark.age)
+>>
+>>
+>> # Output: 
+>>setter method called
+>>getter method called
+>>19
+>>```
+> - Getter method is used to overwrite the previously given value (here self.age).
+> - setter adds logic to getter (here it will raise error if value is less than 18)
+
+ 
+---
 # Getter:
 Getters in Python are methods that are used to access the values of an object's properties. 
 They are used to return the value of a specific property, and are typically defined using the @property decorator.

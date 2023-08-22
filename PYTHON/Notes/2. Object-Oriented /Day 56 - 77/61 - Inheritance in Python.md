@@ -1,25 +1,32 @@
-# 
-When a class derives from another class. The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods,this is called as inheritance.
-## Python Inheritance Syntax
+ 
+When a class derives from another class,
+The child class will inherit all the public and protected properties and methods from the parent class. 
+In addition, it can have its own properties and methods,this is called as inheritance.
+# Syntax
+
 ```python
-class BaseClass:
+class ParentClass:
   Body of base class
-class DerivedClass(BaseClass):
+  
+class Derived/ChildClass(ParentClass):
   Body of derived class
   ```
-Derived class inherits features from the base class where new features can be added to it. This results in re-usability of code.
-## Types of inheritance:
+- __Derived class__ _inherits features from the base/Parent class_ where new features can be added to it. 
+	This results in re-usability of code.
+
+---
+# Types of inheritance:
 1. Single inheritance
 2. Multiple inheritance
 3. Multilevel inheritance
 4. Hierarchical Inheritance
 5. Hybrid Inheritance
 
-We will see the explaination and example of each type of inheritance in the later tutorials
+- We will see the explanation and example of each type of inheritance in the later tutorials
 
-##  Single Inheritance: 
-Single inheritance enables a derived class to inherit properties from a single parent class, thus enabling code reusability and the addition of new features to existing code.
-### Example:
+## Single Inheritance: 
+>Single inheritance enables a derived class to inherit properties from a single parent class, thus enabling code re-usability and the addition of new features to existing code.
+#### Example:
 ```python
 class Parent:
     def func1(self):
@@ -32,15 +39,15 @@ class Child(Parent):
 object = Child()
 object.func1()
 object.func2()
-```
-### Output:
-```
+
+# Output:
 This function is in parent class.
 This function is in child class.
 ```
+
 ## Multiple Inheritance: 
 When a class can be derived from more than one base class this type of inheritance is called multiple inheritances. In multiple inheritances, all the features of the base classes are inherited into the derived class. 
-### Example:
+#### Example:
 ```python
 class Mother:
     mothername = ""
@@ -64,15 +71,16 @@ s1 = Son()
 s1.fathername = "Mommy"
 s1.mothername = "Daddy"
 s1.parents()
-```
-### Output:
-```
+
+
+# Output:
 Father name is : Mommy
 Mother name is : Daddy
 ```
+
 ## Multilevel Inheritance :
 In multilevel inheritance, features of the base class and the derived class are further inherited into the new derived class. This is similar to a relationship representing a child and a grandfather. 
-### Example:
+#### Example:
 ```python
 class Grandfather:
  
@@ -96,19 +104,18 @@ class Son(Father):
 s1 = Son('Prince', 'Rampal', 'Lal mani')
 print(s1.grandfathername)
 s1.print_name()
-```
-### Output:
-```
+
+
+# Output:
 George
 Grandfather name : George
 Father name : Philip
 Son name : Charles
 ```
+
 ## Hierarchical Inheritance: 
-
 When more than one derived class are created from a single base this type of inheritance is called hierarchical inheritance. In this program, we have a parent (base) class and two child (derived) classes.
-
-### Example:
+#### Example:
 ```python
 class Parent:
     def func1(self):
@@ -128,17 +135,18 @@ object1.func1()
 object1.func2()
 object2.func1()
 object2.func3()
-```
-### Output:
-```
+
+
+# Output:
 This function is in parent class.
 This function is in child 1.
 This function is in parent class.
 This function is in child 2.
 ```
+
 ## Hybrid Inheritance: 
 Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
-### Example
+#### Example
 ```python
 class School:
     def func1(self):
@@ -162,10 +170,12 @@ class Student3(Student1, School):
 object = Student3()
 object.func1()
 object.func2()
-```
-### Output:
-```
+
+
+# Output:
 This function is in school.
 This function is in student 1.
 ````
-## [[62 - Access Specifiers or Modifiers|Next Lesson>>]]
+
+---
+# [[64 - Exercise 6|Next Lesson>>]]

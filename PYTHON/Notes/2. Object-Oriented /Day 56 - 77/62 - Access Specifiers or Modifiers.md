@@ -1,18 +1,20 @@
-# 
-Access specifiers or access modifiers in python programming are used to limit the access of class variables and class methods outside of class while implementing the concepts of inheritance.
+Access specifiers or access modifiers in python programming are _used to limit the access of class variables and class methods outside of class_ while __implementing the concepts of inheritance__.
 
-Let us see the each one of access specifiers in detail:
+- Let us see the each one of access specifiers in details:
 
-# Types of access specifiers 
+Types of access specifiers 
+---
 1.  Public access modifier
 2. Private access modifier
 3. Protected access modifier
 
 # Public Access Specifier in Python
 
-All the variables and methods (member functions) in python are by default public. Any instance variable in a class followed by the ‘self’ keyword ie. self.var_name are public accessed.
+All the variables and methods (member functions) in python are _by default public_. 
+	Any instance variable in a class followed by the ‘self’ keyword like `self.var_name` are public accessed.
 
 ## Example:
+
 ```python
 class Student:
     # constructor is defined
@@ -23,27 +25,29 @@ class Student:
 obj = Student(21,"Harry")
 print(obj.age)
 print(obj.name)
-```
-## Output:
-```
+
+
+# Output:
 21
 Harry
 ```
 
 # Private Access Modifier
-By definition, Private members of a class (variables or methods) are those members which are only accessible inside the class. We cannot use private members outside of class.
+>By definition, Private members of a class (variables or methods) are those members which are only accessible inside the class. We cannot use private members outside of class.
 
 
-In Python, there is no strict concept of "private" access modifiers like in some other programming languages. However, a convention has been established to indicate that a variable or method should be considered private by prefixing its name with a double underscore (__). This is known as a "weak internal use indicator" and it is a convention only, not a strict rule. Code outside the class can still access these "private" variables and methods, but it is generally understood that they should not be accessed or modified.
+In Python, there is _no strict concept of "private" access modifiers_ like in some other programming languages. 
+However, a convention has been established to indicate that a variable or method should be considered private _by prefixing its name_ __with a double underscore(__)__. This is known as a _"weak internal use indicator"_ and it is a convention only, not a strict rule. 
+Code outside the class can still access these "private" variables and methods, but _it is generally understood that they should not be accessed or modified_.
 ## Example:
 ```python
 class Student: 
     def __init__(self, age, name): 
         self.__age = age      # An indication of private variable
         
-        def __funName(self):  # An indication of private function
-            self.y = 34
-            print(self.y)
+    def __funName(self):  # An indication of private function
+        self.y = 34
+        print(self.y)
 
 class Subject(Student):
     pass
@@ -58,18 +62,20 @@ print(obj.__funName())
 # calling by object  of class Subject
 print(obj1.__age)
 print(obj1.__funName())
-```
-## Output:
-```
+
+
+# Output:
 AttributeError: 'student' object has no attribute '__age'
 AttributeError: 'student' object has no method '__funName()'
 AttributeError: 'subject' object has no attribute '__age'
 AttributeError: 'student' object has no method '__funName()'
 ```
-Private members of a class cannot be accessed or inherited outside of class. If we try to access or to inherit the properties of private members to child class (derived class). Then it will show the error.
+Private members of a class cannot be accessed or inherited outside of class. 
+If we try to access or to inherit the properties of private members to child class (derived class). Then it will show the error.
 
-## Name mangling
-Name mangling in Python is a technique used to protect class-private and superclass-private attributes from being accidentally overwritten by subclasses. Names of class-private and superclass-private attributes are transformed by the addition of a single leading underscore and a double leading underscore respectively.
+# Name mangling
+Name mangling in Python is a technique used to protect class-private and superclass-private attributes from being accidentally overwritten by subclasses. 
+Names of class-private and superclass-private attributes are transformed by the addition of a single leading underscore and a double leading underscore respectively.
 
 ```python
 class MyClass:
@@ -112,7 +118,7 @@ print(obj._funName())
 print(obj1._name)    
 print(obj1._funName()) 
 ```
-## Output:
+### Output:
 ```
 Harry
 CodeWithHarry
@@ -122,4 +128,5 @@ CodeWithHarry
 ```
 
 
-## [[64 - Exercise 6|Next Lesson>>]]
+---
+# [[60 - Getters and Setters|Next Lesson>>]]

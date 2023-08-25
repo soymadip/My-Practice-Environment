@@ -10,7 +10,8 @@ The main purpose of a constructor is to initialize or assign values to the data 
 def __init__(self):
 	# initializations
  ```
-init is one of the reserved functions in Python. In Object Oriented Programming, it is known as a constructor.
+`__init__()` is one of the _reserved functions_ in Python. In Object Oriented Programming, it is known as a __constructor__.
+
 
 ## Types of Constructors in Python
 

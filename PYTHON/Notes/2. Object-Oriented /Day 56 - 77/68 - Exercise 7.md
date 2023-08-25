@@ -8,7 +8,7 @@ For example:
 - design.png --> 4.png
 - name.png --> 5.png
 
-# Solution:
+---
 
 ![[75 - Ex7 ~ Solution]]
 

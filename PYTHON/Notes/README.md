@@ -6,9 +6,9 @@
 
 - Here's an example of one of my obsidian Notes:
     - Orignal note (source mode):
-        <p> <img src="https://raw.githubusercontent.com/soymadip/My-Practice-Environment/main/Assets/exmpl1png" width="450" height="250"></p>
+        <p> <img src="https://raw.githubusercontent.com/soymadip/My-Practice-Environment/main/Assets/exmpl1.png" width="500" height="300"></p>
     - Preview mode:
-        <p> <img src="https://raw.githubusercontent.com/soymadip/My-Practice-Environment/main/Assets/exmpl2.png" width="450" height="250"></p>
+        <p> <img src="https://raw.githubusercontent.com/soymadip/My-Practice-Environment/main/Assets/exmpl2.png" width="500" height="300"></p>
 
 
 [^1]: My Notes are not as same as @CodeWithHarry's Replits, I have edited, added more info in them for my better understanding. You can find orignal replits [HERE][rplt]

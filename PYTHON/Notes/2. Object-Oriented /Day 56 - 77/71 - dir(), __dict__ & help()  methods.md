@@ -1,20 +1,22 @@
-# 
-
 They make it easy for us to understand how classes resolve various functions and executes code. 
 In Python, there are three built-in functions that are commonly used to get information about objects: dir(), __dict__, and help(). Let's take a look at each of them:
-## The `dir()` method
-`dir()`: The dir() function returns a list of all the attributes and methods (including dunder methods) available for an object. It is a useful tool for discovering what you can do with an object.
-Example:
+## The `dir()` method:
+> The `dir()` function _returns a list of all the attributes and methods (including dunder methods) available for an object._ 
+> It is a useful tool for discovering what you can do with an object.
+- Example:
 
 ```python
->>> x = [1, 2, 3]
->>> dir(x)
+x = [1, 2, 3]
+print(dir(x))
+
+#Output
 ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
 ```
 
-## The `__dict__` attribute
-``__dict__``: The `__dict__` attribute returns a dictionary representation of an object's attributes. It is a useful tool for introspection.
-Example:
+## The `__dict__` attribute:
+>The `__dict__` _attribute_ returns a dictionary representation of an object's attributes. It is a useful tool for introspection.
+
+- Example:
 
 ```python
 >>> class Person:
@@ -24,17 +26,19 @@ Example:
 ...
 >>> p = Person("John", 30)
 >>> p.__dict__
-```
-### Output
-```
+
+#Output:
 {'name': 'John', 'age': 30}
 ```
-## The help() mehthod
-`help()`: The help() function is used to get help documentation for an object, including a description of its attributes and methods.
-Example:
+## The help() method
+>The __help()__ function is _used to_ __get help documentation for an object__, including a description of its attributes and methods.
+
+- Example:- 
 
 ```python
->>> help(str)
+print(help(str))
+
+#output:
 Help on class str in module builtins:
 
 class str(object)
@@ -49,5 +53,9 @@ class str(object)
  |  encoding defaults to sys.getdefaultencoding().
  |  errors defaults to 'strict'.
    ```
-In conclusion, dir(), __dict__, and help() are useful built-in functions in Python that can be used to get information about objects. They are valuable tools for introspection and discovery.
-## [[72 - super keyword|Next Lesson>>]]
+
+>[!example] In conclusion
+>`dir()`, `__dict__`, and `help()` are useful _built-in functions_ in Python _that can be used to get information about objects_. They are valuable tools for introspection and discovery.
+
+---
+# [[72 - super keyword|Next Lesson>>]]

@@ -13,4 +13,4 @@ For example:
 ![[75 - Ex7 ~ Solution]]
 
 ---
-## [[69 - Class methods as alternative constructors|Next Lesson>>]]
+## [[69 - Class methods|Next Lesson>>]]

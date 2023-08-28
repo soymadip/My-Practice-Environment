@@ -29,7 +29,7 @@ Written in: Obsidian-Markdown Format
 
 ### 1.
 
-![[32 - Set Methods#Update()]]
+![[32 - Set Methods (merged)#Update()]]
 
 ### 2.
 
@@ -38,7 +38,7 @@ Written in: Obsidian-Markdown Format
 
 ## We have to give ***{ }*** when updating dictionary:
 
-![[34 - Dictionary Methods#update()]]
+![[34 - Dictionary Methods (merged)#update()]]
 
 ---
 # This is  H1

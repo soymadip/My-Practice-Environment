@@ -18,21 +18,6 @@ A string is essentially a sequence of characters also called an array. Thus we c
 ## Example:
 ```python
 pie = "ApplePie"
-print(pie[:5])
-print(pie[6])	#returns character at specified index
-
-# Output:
-Apple
-i
-
-```
- 
->[!Note]
-> This method of specifying the start and end index to specify a part of a string is called slicing. 
-
-## Slicing Example:
-```python
-pie = "ApplePie"
 print(pie[:5])      #Slicing from Start
 print(pie[5:])      #Slicing till End
 print(pie[2:6])     #Slicing in between
@@ -44,6 +29,30 @@ Pie
 pleP
 ApplePie
 ```
+ 
+>[!Note]
+> This method of specifying the start and end index to specify a part of a string is called __slicing__. 
+
+- <mark style="background: #D2B3FFA6;">There's another shorter method to slice a string:</mark>
+```python
+def from_string(string):
+	name, age = string.split('-')
+	return (name, int(age)) 
+	
+# This is shorter version of:
+def from_string(string):
+    name = string.split('-')[0]
+    age = string.split('-')[1]
+    return (name, int(age)) 
+
+print(from_string("goofle-12"))
+
+
+# output:
+('goofle', 12) 
+```
+
+
 # Loop through a String:
 Strings are arrays and arrays are iterable. Thus we can loop through strings.
 ## Example:

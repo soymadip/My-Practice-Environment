@@ -98,7 +98,7 @@ The attribute `__mangled_attribute` is private and its name is "mangled" to `_My
 # `__dir__()`
 
 `__dir__` is a method, used to print all available methods & attributes of a object.
-
+- More info in [[71 - dir(), __dict__ & help()  methods#The `dir()` method|Day 71.]]
 ### Example:
 ```python
 class MyClass:

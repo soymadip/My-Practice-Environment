@@ -1,5 +1,11 @@
-They make it easy for us to understand how classes resolve various functions and executes code. 
-In Python, there are three built-in functions that are commonly used to get information about objects: dir(), __dict__, and help(). Let's take a look at each of them:
+# Info methods:
+In Python, there are _3 built-in functions_ that are commonly _used to get information about objects_: 
+- `dir()`
+- `__dict__`  
+- `help()`
+
+
+Let's take a look at each of them:
 ## The `dir()` method:
 > The `dir()` function _returns a list of all the attributes and methods (including dunder methods) available for an object._ 
 > It is a useful tool for discovering what you can do with an object.
@@ -14,18 +20,18 @@ print(dir(x))
 ```
 
 ## The `__dict__` attribute:
->The `__dict__` _attribute_ returns a dictionary representation of an object's attributes. It is a useful tool for introspection.
+>The `__dict__` _attribute_ _returns a dictionary representation of an object's attributes_. 
+>- It is a useful tool for introspection.
 
 - Example:
 
 ```python
->>> class Person:
-...     def __init__(self, name, age):
-...         self.name = name
-...         self.age = age
-...
->>> p = Person("John", 30)
->>> p.__dict__
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+p = Person("John", 30)
+print(p.__dict__)
 
 #Output:
 {'name': 'John', 'age': 30}

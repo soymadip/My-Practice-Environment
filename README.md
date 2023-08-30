@@ -23,7 +23,7 @@
      For Windows (altough I recommend to try using Linux):-
       - First install git from [here][1]
       - Then clone:-
-        
+   
       ```
       git clone https://github.com/<your_username>/My-Practice-Environment.git
       ```

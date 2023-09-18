@@ -1,4 +1,6 @@
-
+---
+Source: OOP
+---
 A class is a blueprint or a template for creating objects, providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods). The user-defined objects are created using the class keyword.
 
 >In short, classes are used to make custom data types, unlike built-in data types like int,float etc...

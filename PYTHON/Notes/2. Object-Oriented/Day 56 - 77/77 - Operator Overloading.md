@@ -43,3 +43,6 @@ It's important to note that operator overloading is not limited to the built-in 
 Operator overloading is a powerful feature in Python that allows you to create more readable and intuitive code. By redefining the behavior of mathematical and comparison operators for custom data types, you can write code that is both concise and expressive. However, it's important to use operator overloading wisely, as overloading the wrong operator or using it inappropriately can lead to confusing or unexpected behavior.
 
 ## [[>>78 - Single Inheritance]]
+
+![[sdd.png]]
+

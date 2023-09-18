@@ -1,4 +1,4 @@
-# Info methods:
+# Info methods: 
 In Python, there are _3 built-in functions_ that are commonly _used to get information about objects_: 
 - `dir()`
 - `__dict__`  
@@ -64,4 +64,5 @@ class str(object)
 >`dir()`, `__dict__`, and `help()` are useful _built-in functions_ in Python _that can be used to get information about objects_. They are valuable tools for introspection and discovery.
 
 ---
+
 # [[72 - super keyword|Next Lesson>>]]

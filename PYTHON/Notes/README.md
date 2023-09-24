@@ -2,7 +2,7 @@
 
 - This is my Notes folder.
 - These are modified[^1] @Replit `tutorial.md`s as well as other ones which I make from various sources. I upload them here for better efficiency and as backup..
-- My Notes are written in [Obsidian][obs] MD Format. Use/Install [Obsidian][obs] to proper Formatting[^2]..
+- My Notes are written in [Obsidian][obs] MD Format. Use [Obsidian][obs] for proper Formatting[^2]..
 
 - Here's an example of one of my obsidian Notes:
     - Orignal note (source mode):

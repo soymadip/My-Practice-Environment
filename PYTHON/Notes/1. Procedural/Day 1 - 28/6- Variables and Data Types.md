@@ -94,4 +94,4 @@ Output:
 {'name': 'Sakshi', 'age': 20, 'canVote': True}
 ```
 
-## [[7 - Operators & Exercise 1- Calculator|Next Lesson>>]]
+## [[7 - Operators|Next Lesson>>]]

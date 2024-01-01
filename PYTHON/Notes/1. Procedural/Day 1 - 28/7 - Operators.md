@@ -12,6 +12,12 @@ Python has different types of operators for different operations. To create a ca
 | %        | Mudulas        | ``` 15%7 = 1 ```          |
 | //       | Floor Division | ``` 15//7 = 2 ```         |
 
+# Extra/advanced operators:
+| Operator | Operator Name | Math sign                           |
+| :--- :   | :---:         | :---:                               |
+| +=       | Plus-Equals   | `counter+= 10` is `counter= counter+10` |
+| 1b       | [✓]           |                                     |
+
 ## Ex:
 ```python
 n = 15
@@ -33,20 +39,3 @@ print("Floor Division of",n,"and",m,"is", ans6)
 Here 'n' and 'm' are two variables in which the integer value is being stored. Variables 'ans1' , 'ans2' ,'ans3', 'ans4','ans5' and 'ans6' contains the outputs corresponding to addition, subtraction,multiplication, division, modulus and floor division respectively.
 
 ---
-# Exercise 1 - Create a Calculator
-Create a calculator capable of performing addition, subtraction, multiplication and division operations on two numbers. Your program should format the output in a readable manner!
-Hitnt:
-```python
-print(5+6)
-print(15-6)
-print(15*6)
-print(15/6)
-print(15//6)
-print(5%3)
-print(2**4)
-```
-## Solution:
-
-![[8 - Ex1 ~Solution]]
-
-## [[9 - Typecasting in Python|Next Lesson>>]]

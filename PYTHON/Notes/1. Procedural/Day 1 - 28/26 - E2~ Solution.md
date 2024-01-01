@@ -1,6 +1,6 @@
 
 > [!info]
->Solution of [[15 - Exercise 2~ Good morning sir|Exercise 2]]
+>Solution of [[15 - Exercise 2 (Good morning sir)|Exercise 2]]
 
 > [!question]
 Create a python program capable of greeting you with Good Morning, Good Afternoon and Good Evening. Your program should use time module to get the current hour. Here is a sample program and documentation link for you:
@@ -24,4 +24,4 @@ elif(hour>=17 and hour<0):
 ```
 
 
-# [Next Lesson>>](27%20-%20Exercise%203.md)
+# [Next Lesson>>](27%20-%20Exercise%203%20(kbc).md)

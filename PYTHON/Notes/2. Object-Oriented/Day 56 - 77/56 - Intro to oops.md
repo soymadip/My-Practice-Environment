@@ -14,7 +14,10 @@ So, in this session, we will learn about __Object Oriented Programming (OOP).__
 
 ![[oop.png]]
 
+```mermaid
 
+
+```
 The basic idea of object-oriented programming (OOP) in Python is __to use classes and objects to represent real-world concepts and entities.__
 
 ### Object:

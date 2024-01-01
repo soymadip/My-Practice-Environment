@@ -1,4 +1,4 @@
-> [[40 - Exercise 4~ program to translate a message into secret code language|Exercise 4]]:-
+> [[40 - Exercise 4 (program to translate a message into secret code language)|Exercise 4]]:-
 > Write a python program to translate a message into secret code language. Use the rules below to translate normal English into secret code language
 
 # Answer:

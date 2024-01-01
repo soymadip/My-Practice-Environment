@@ -98,4 +98,4 @@ Good Moening Sir
 
 ---
 
-# [[15 - Exercise 2~ Good morning sir|Next Lesson>>]]
+# [[15 - Exercise 2 (Good morning sir)|Next Lesson>>]]

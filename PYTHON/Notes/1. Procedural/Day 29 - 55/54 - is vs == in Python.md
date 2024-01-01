@@ -44,4 +44,4 @@ In general:
 
 
 ---
-# [[55 -Exercise 5 ~ Snake Water Gun|Next Lesson>>]]
+# [[55 -Exercise 5 (Snake Water Gun)|Next Lesson>>]]

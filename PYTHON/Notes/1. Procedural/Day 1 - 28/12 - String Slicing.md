@@ -61,7 +61,7 @@ alphabets = "ABCDE"
 for i in alphabets:
     print(i)
 
-# Output:
+# Output :
 A
 B
 C

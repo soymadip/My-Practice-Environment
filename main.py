@@ -29,3 +29,8 @@ class Person:
 p = Person("John", 30)
 print(p.__dict__)
 
+
+
+double = lambda x,y: (x+y)
+
+print(double(10,13))

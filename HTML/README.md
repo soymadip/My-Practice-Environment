@@ -4,8 +4,7 @@
 
 ## ℹ️ Folder Info:-
 
-
 | LANGUAGE | STARTED? | STATE |
 | -------- | -------- | ----- |
-| HTML     | NO       | 0%    |
+| HTML     | FINISHED | 90%   |
 |          |          |       |

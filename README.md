@@ -39,8 +39,8 @@
 ## ℹ️ Some Tips & Sources(that I follow):-
 
 - [Here][2] are some useful shortcuts.
-- If you are just stepping into programming world, I recommend you visiting [@CodeWithHarry][y]'s youtube channel. He has many courses for beginners for different languages. I learn from his courses.
-- Use Replit if you don't have sufficient pc.
+- If you are just stepping into programming world, I recommend you visiting [@CodeWithHarry][cdh]'s youtube channel. He has many courses for beginners for different languages. I learn from his courses.
+- Use Replit if you don't have sufficient computing power.
 - My **Notes** are **not** as **same** as @CodeWithHarry's Replits, I have edited them for my better understanding.
 - You can use the Practice exercises to practice (although I haven't crerated much).
 - You can take some help from ChatGPT if you cannot find your problem in code even after hard trying. BUT DON'T GET TOO DEPENDENT AT IT.
@@ -51,7 +51,7 @@
 
 ## ©️ Credits:-
 
-- [@CodeWithHarry][y] as most of the notes of Python are gathered from his [Replits][rp].
+- [@CodeWithHarry][cdh] as most of the notes of Python are gathered from his [Replits][rp].
 - Infinite heavenly forum users & websites I visited to gather information (sorry for not remembering all of you).
 - [Soymadip][m](Me) (I am gathering all of these myself you know 😁)
 
@@ -59,6 +59,6 @@
 ---
 [1]: https://git-scm.com/download/win
 [2]: ./Useful-Shortcuts.md
-[y]: https://www.youtube.com/@CodeWithHarry
+[cdh]: https://www.youtube.com/@CodeWithHarry
 [rp]: https://replit.com/@codewithharry
 [m]: https://github.com/soymadip

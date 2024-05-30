@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: auto;
+            padding: auto;
+        }
+
+        .navbar {
+            background-color: black;
+            box-sizing: border-box;
+            height: 12vh;
+            color: wheat;
+            overflow: auto;
+            border-radius: 16px;
+        }
+
+        li {
+            list-style: none;
+            font-size: 12px;
+            float: left;
+            padding: 5vh 1vw;
+        }
+
+        .search {
+            float: right;
+            margin: 5vh 1vw;
+            padding-left: 10px;
+            border-radius: 20px;
+        }
+
+        .redbox {
+            display: inline-block;
+            width: 50vw;
+            height: 80vh;
+            background-color: red;
+            text-align: center;
+        }
+
+        .bluebox {
+            display: inline-block;
+            width: 50vw;
+            height: 80vh;
+            background-color: blue;
+            text-align: center;
+            /* visibility: hidden; */
+        }
+
+        footer {
+            background-color: aqua;
+            height: 8vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Charity</li>
+            <li>Google link</li>
+            <li>Contact</li>
+            <input type="text" placeholder="Search here" class="search">
+        </ul>
+    </div>
+    <div class="redbox">Blue Box</div><div class="bluebox"> Red Box</div>
+    <footer>
+        <p>Copyright google.com</p>
+    </footer>
+</body>
+
+</html>

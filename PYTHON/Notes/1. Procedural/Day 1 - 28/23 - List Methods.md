@@ -20,9 +20,8 @@ print(num)
 ```
 
 > [!info]
->What if you want to print the list in descending order?
-> [!note]
->We must give reverse=True as a parameter in the sort method.
+>What if you want to *print the list in descending order*?
+>We must give *reverse=True* as a parameter in the sort method.
 
 ### Example 2:
 ```python

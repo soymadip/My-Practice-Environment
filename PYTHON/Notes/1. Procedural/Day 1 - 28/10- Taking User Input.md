@@ -25,4 +25,4 @@ Enter the name: Harry
 Harry
 
 ```
-## [[11 - Strings data type|Next Lesson>>]]
+## [[11 - "Strings" data type|Next Lesson>>]]

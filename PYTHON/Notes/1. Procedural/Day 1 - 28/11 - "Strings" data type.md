@@ -1,5 +1,6 @@
 # What are strings?
-In python, anything that you enclose between single or double quotation marks is considered a string. A string is essentially a sequence or array of textual data. Strings are used when working with Unicode characters. 
+In python, anything that you enclose between single or double quotation marks is considered a string. A string is essentially a sequence or array of textual data. 
+Strings are also used when working with Unicode characters. 
 ## Example:
 ```python
 name = "Harry"
@@ -9,6 +10,9 @@ print("Hello, " + name)
 Hello, Harry
 
 ```
+
+>[!Danger]  Attention
+Strings are also known as **Array**
 
 >[!Note] 
 >It does not matter whether you enclose your strings in single or double quotes, the output remains the same. 

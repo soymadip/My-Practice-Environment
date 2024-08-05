@@ -45,7 +45,7 @@
 - You can use the Practice exercises to practice (although I haven't crerated much).
 - You can take some help from ChatGPT if you cannot find your problem in code even after hard trying. BUT DON'T GET TOO DEPENDENT AT IT.
 - Learn how to use Git, it will help you in future.
-- I recomend you to try & start using Linux, Linux is much more flexible than windows....
+- I recomend you to try & start using Linux, it's much more flexible than windows....
 - My Desktop configuration can be found [here.]()
 
 

@@ -2,15 +2,15 @@
 Python has different types of operators for different operations. To create a calculator we require arithmetic operators.
 # Arithmetic operators
 
-| Operator | Operator Name  | Math sign & Example |
-| -------- | -------------- | ------------------- |
-| +        | Addition       | ``` 15+7 = 22 ```         |
-| -        | Subtraction    | ``` 15-7 = 8 ```          |
-| *        | Multiplication | ``` 5*7 = 35 ```          |
-| /        | Division       | ``` 5/3 = 1.666666667 ``` |
-| **       | Exponential    | ``` 5^3 = 125 ```         |
-| %        | Mudulas        | ``` 15%7 = 1 ```          |
-| //       | Floor Division | ``` 15//7 = 2 ```         |
+| Operator | Operator Name  | Math sign & Example       | .   |
+| -------- | -------------- | ------------------------- | --- |
+| +        | Addition       | ``` 15+7 = 22 ```         | ..  |
+| -        | Subtraction    | ``` 15-7 = 8 ```          | ... |
+| *        | Multiplication | ``` 5*7 = 35 ```          |     |
+| /        | Division       | ``` 5/3 = 1.666666667 ``` |     |
+| **       | Exponential    | ``` 5^3 = 125 ```         |     |
+| %        | Mudulas        | ``` 15%7 = 1 ```          |     |
+| //       | Floor Division | ``` 15//7 = 2 ```         |     |
 
 # Extra/advanced operators:
 | Operator | Operator Name | Math sign                           |

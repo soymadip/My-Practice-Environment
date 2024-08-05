@@ -1,8 +1,8 @@
 # Python Lists
 
-- Lists are ordered collection of data items.
+- Lists are *ordered* collection of data items.
 - List items are separated by commas and enclosed within square brackets <mark style="background: #5c5959;">[ ]</mark>. 
-- Lists are changeable meaning we can alter them after creation.
+-  Lists are **mutable**, meaning we can alter them after creation.
 
 Example 1:
 ```python

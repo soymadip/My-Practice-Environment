@@ -1,3 +1,0 @@
-[submodule "C/Projects/lib/cjson"]
-	path = C/Projects/lib/cjson
-	url = https://github.com/DaveGamble/cJSON.git

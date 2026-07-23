@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# NOTE: Now at https://soymaddip.github.io/quikrun
+
 # Color codes for output formatting
 RED='\033[0;31m'
 GREEN='\033[0;32m'
